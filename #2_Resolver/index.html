@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>  <!-- Decia titulo en vez de title -->
+    <style>
+        article img{
+            width: 100%;
+        }
+        body{
+            background-color: black;
+            color: white; 
+        }
+        .grid{
+            padding-top: 50px;
+            padding-bottom: 50px;
+            width: 80%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+         
+        .title-h4{
+            color: white;
+            font-size: 25px;
+        }
+        .btn{
+            color: white;
+            background-color: red; /* Porque pusiste un corchete?, eso no va aqui */
+            border: 1px solid red;
+            padding: 10px 25px;
+            font-size: 12px;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+        header{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section class="">
+            <img src="imagenes/logo-netflix.png" width="150px" alt="Netflix-logo">
+        </section>
+        <section style="display: flex;">
+            <div>
+                <p style="color: white; padding-right: 10px;">PELÍCULAS Y SERIES ILIMITADAS</p> 
+            </div>
+            <div class=" " style="display: flex; align-items: center;">
+                <a class="btn" href="">INICIO</a> <!-- estaba mal escrita la etiqueta “a” al finalizar, no colocaron el mayor que -->
+                <a class="btn" href="">PELICULAS</a> 
+                <a class="btn" href="">SERIES</a> <!-- no abrieron correctamente la etiqueta “a”, le hacia falta un menor que -->
+                <a class="btn" href="">UNIRTE AHORA</a>
+                <a class="btn" href="">INICIAR SESIÓN</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section style="text-align: center;  color: white;"> <!-- Faltó el punto y coma despues de centrar el texto -->
+            <div style="padding-top: 50px;  padding-bottom:  50px; "> <!-- Faltó el punto y coma despues de declarar cada padding-->
+                <h1 style="padding-bottom: 20px;">Hay mucho más para ver.</h1>
+                <p> Netflix tiene un amplio catálogo de peliculas, series, documentales, animes, originales premiados y más. Todo lo que quieras ver, cuando quieras</p>
+            </div>
+            <div style="text-align: center;">
+                <boton class="btn" href="">UNIRTE AHORA</boton>
+            </div>
+        </section>
+        <section class="grid">
+            <article class="">
+                <img src="imagenes/canvas.jpg" alt="canvas"> <!-- no colocaron mayor que al final de la línea y corrijo el alt-->
+                <h4 class="title-h4">Canvas</h4> <!-- no abrieron correctamente la etiqueta h4 y corrijo el nombre -->
+            </article>
+            <article class="">
+                <img src="imagenes/moxie.jpg" alt="moxie"> <!-- corrijo el alt y es moxie.jpg en vez de .png -->
+                <h4 class="title-h4">Moxie</h4> <!-- corrijo el nombre -->
+            </article>
+            <article class="">
+                <img src="imagenes/barrenderos-espaciales.jpg" alt="barrenderos espaciales"> 
+                <h4 class="title-h4">Barrenderos Espaciales</h4> <!-- No es barrenderes, es barrenderos-->
+            </article>
+            <article class="">
+                <img src="imagenes/gran-hope.jpg" alt="Gran Esperanza"> <!-- imegenes reemplazado por imagenes y corrijo el alt-->
+                <h4 class="title-h4">Gran Esperanza</h4> <!-- corrijo el nombre -->
+            </article>
+            <article class="">
+                <img src="Imagenes/teoria-del-todo.jpg" alt="teoria del todo"> <!-- Corrijo el alt -->
+                <h4 class="title-h4">Teoria del Todo</h4> <!-- corrijo el nombre -->
+            </article>
+            <article class=""> <!-- no colocaron el mayor que para cerrar -->
+                <img src="imagenes/zombie-2.jpg" alt="estación zombie 2"> <!-- Corrijo el alt -->
+                <h4 class="title-h4"> Estación Zombie 2</h4> <!-- corrijo el nombre -->
+            </article>
+            <article class="">
+                <img src="imagenes/vivo.jpg" alt="vivo"> <!-- imagenees reemplazado por imagenes y corrijo el alt-->
+                <h4 class="title-h4">Vivo</h4> <!-- corrijo el nombre y corrijo la clase que no es h5 si no h4-->
+            </article>
+            <article class="">
+                <img src="imagenes/cielo-existe.jpg" alt="el cielo si existe"> <!-- la etiqueta imagen reemplazada por img corrijo el alt-->
+                <h4 class="title-h4">El Cielo Si Existe</h4> <!-- corrijo el nombre -->
+            </article>
+            <article class="">
+                <img src="imagenes/dios-no-esta-muerto2.jpg" alt="dios no esta muerto 2"> <!-- corrijo el alt -->
+                <h4 class="title-h4">Dios no está Muerto 2</h4> <!-- corrijo el nombre -->
+            </article>
+            <article class="">
+                <img src="imagenes/mia-leon.jpg" alt="mia y el leon blanco"> <!-- Corrijo el alt -->
+                <h4 class="title-h4">Mia y el Leon blanco</h4> <!-- corrijo el nombre y corrijo la clase porque tiene dos guiones, lo correcto es uno solo -->
+            </article>
+            <article class="">
+                <img src="imagenes/si-supieras.jpg" alt="si supieras"> <!-- faltó indicar en que carpeta se encuentra la imagen y corrijo el alt -->
+                <h4 class="title-h4">Si supieras</h4> <!-- corrijo el nombre -->
+            </article>
+        </section>
+        
+    </main>
+    <footer style="background-color: #232020; padding: 20px; color: white; text-align: center;">
+        <h5>PIE DE PAGINA</h5>
+    </footer>
+</body>
+</html>
+

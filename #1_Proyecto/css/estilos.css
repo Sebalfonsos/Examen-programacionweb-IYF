@@ -1,0 +1,81 @@
+*{
+    margin-top: 0px;   
+}
+header {
+    width: 100%;
+    height: 140px;
+    align-items: center;
+}
+
+
+body {
+    background-color: rgb(18,18,18);
+    
+}
+
+.la-cabeza-de-la-pagina{
+    margin-bottom: 240px;
+}
+
+.logo-principal {
+    display:block;
+    margin:auto;
+    width: 10%;
+    margin-top: 25px;
+}
+
+.banner {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.seccion-de-botones{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+
+}
+.botones-principales{
+    margin: auto;
+    
+}
+
+.botones-principales img{
+    width: 100%;
+    
+}
+
+.grupo-de-peliculas{
+    margin: 70px 10px 70px;
+    
+    
+}
+
+.texto-de-titulo{
+    color: white;
+    
+}
+
+.imagenes-de-portadas{
+    display: flex;
+}
+
+.portada-del-medio{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.imagenes-de-portadas img{
+    width: 100%;
+    
+}
+
+.imagenes-de-portadas h4{
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+   
+}
+
+    

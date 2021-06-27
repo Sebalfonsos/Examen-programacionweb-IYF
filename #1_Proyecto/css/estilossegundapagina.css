@@ -1,0 +1,67 @@
+*{
+    margin-top: 0px;   
+}
+
+body {
+    background-color: rgb(18,18,18);
+}
+
+
+.logodisney{
+    display:block;
+    margin:auto;
+    width: 80%;
+    margin-top: 25px;
+}
+
+.seccion-de-botones{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 20px;
+
+
+}
+.botones-principales{
+    margin: auto;
+    
+}
+
+.botones-principales img{
+    width: 100%;
+    
+}
+
+
+
+.recomendaciones h2{
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    
+}
+
+.portadas{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.portadas img{
+    width: 100%;
+    margin-bottom: 14px;
+    
+}
+
+.portadas-del-medio-izquierda{
+    margin-left: 10px;
+    
+}
+.portadas-del-medio-derecha{
+    margin-left: 20px; 
+}
+
+.portada-del-lado-derecho{
+    margin-left: 30px;
+}
+
